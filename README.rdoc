@@ -1,0 +1,13 @@
+== README
+
+Test application.
+- Uses marionette for client side.
+- Server-sent events with ActionController::Live module.
+- Watches the file "./filetowatch" for changes and pushes new lines to the client
+- Divides new lines into two groups depending if the line contains "ERROR" string anywhere.
+
+= usage
+
+- run bundle
+- run rails server
+- append some lines to file "./filetowatch" in the root of the app (e.x. "echo 'this is ERROR message' >> filewatch")

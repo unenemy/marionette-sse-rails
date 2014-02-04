@@ -1,0 +1,9 @@
+%table
+  %thead
+    %tr
+      %th Containing "ERROR"
+      %th Others
+  %tbody
+    %tr
+      %td#type-one
+      %td#type-two
